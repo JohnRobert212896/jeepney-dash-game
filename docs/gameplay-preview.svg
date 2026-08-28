@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="540" height="960" viewBox="0 0 540 960">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#173d4f"/>
+      <stop offset="1" stop-color="#0b1f3a"/>
+    </linearGradient>
+    <linearGradient id="jeep" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#ffd34d"/>
+      <stop offset="1" stop-color="#ff8a2b"/>
+    </linearGradient>
+    <filter id="shadow" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="10" stdDeviation="10" flood-opacity=".28"/>
+    </filter>
+  </defs>
+
+  <rect width="540" height="960" fill="url(#sky)"/>
+  <rect x="0" y="94" width="64" height="866" fill="#173d4f"/>
+  <rect x="476" y="94" width="64" height="866" fill="#173d4f"/>
+
+  <g opacity=".95">
+    <rect x="7" y="146" width="46" height="118" rx="6" fill="#26556c"/>
+    <rect x="14" y="168" width="13" height="16" fill="#f9c74f"/>
+    <rect x="34" y="168" width="13" height="16" fill="#f9c74f"/>
+    <circle cx="30" cy="290" r="19" fill="#44a36f"/>
+    <rect x="488" y="235" width="46" height="129" rx="6" fill="#204960"/>
+    <rect x="496" y="260" width="13" height="16" fill="#90be6d"/>
+    <rect x="516" y="260" width="13" height="16" fill="#90be6d"/>
+    <circle cx="510" cy="415" r="21" fill="#44a36f"/>
+    <rect x="7" y="490" width="46" height="130" rx="6" fill="#26556c"/>
+    <rect x="14" y="515" width="13" height="16" fill="#f9c74f"/>
+    <rect x="34" y="515" width="13" height="16" fill="#f9c74f"/>
+    <circle cx="29" cy="646" r="19" fill="#44a36f"/>
+    <rect x="488" y="605" width="46" height="126" rx="6" fill="#204960"/>
+    <rect x="496" y="630" width="13" height="16" fill="#90be6d"/>
+    <rect x="516" y="630" width="13" height="16" fill="#90be6d"/>
+  </g>
+
+  <rect x="64" y="94" width="412" height="866" fill="#263442"/>
+  <rect x="64" y="94" width="9" height="866" fill="#d8e1e8"/>
+  <rect x="467" y="94" width="9" height="866" fill="#d8e1e8"/>
+  <g fill="#fff" opacity=".58">
+    <rect x="197" y="121" width="8" height="64" rx="4"/>
+    <rect x="197" y="247" width="8" height="64" rx="4"/>
+    <rect x="197" y="373" width="8" height="64" rx="4"/>
+    <rect x="197" y="499" width="8" height="64" rx="4"/>
+    <rect x="197" y="625" width="8" height="64" rx="4"/>
+    <rect x="335" y="121" width="8" height="64" rx="4"/>
+    <rect x="335" y="247" width="8" height="64" rx="4"/>
+    <rect x="335" y="373" width="8" height="64" rx="4"/>
+    <rect x="335" y="499" width="8" height="64" rx="4"/>
+    <rect x="335" y="625" width="8" height="64" rx="4"/>
+  </g>
+
+  <g transform="translate(407 283)">
+    <rect x="-48" y="-69" width="96" height="138" rx="8" fill="#4bd38b" opacity=".22"/>
+    <rect x="-43" y="48" width="86" height="13" rx="5" fill="#4bd38b"/>
+    <text x="20" y="59" text-anchor="middle" font-family="system-ui,sans-serif" font-size="10" font-weight="900" fill="#fff">STOP</text>
+    <circle cx="-27" cy="-20" r="11" fill="#f1b98f"/>
+    <rect x="-37" y="-8" width="20" height="37" rx="6" fill="#e84a5f"/>
+    <rect x="-36" y="29" width="7" height="21" fill="#071426"/>
+    <rect x="-25" y="29" width="7" height="21" fill="#071426"/>
+  </g>
+
+  <g transform="translate(132 348)" filter="url(#shadow)">
+    <rect x="-41" y="-60" width="82" height="120" rx="13" fill="#101722"/>
+    <rect x="-35" y="-54" width="70" height="108" rx="11" fill="#ef476f"/>
+    <rect x="-27" y="-36" width="54" height="35" rx="6" fill="#8de1ff"/>
+    <rect x="-26" y="26" width="18" height="9" rx="3" fill="#fff1a8"/>
+    <rect x="8" y="26" width="18" height="9" rx="3" fill="#fff1a8"/>
+  </g>
+
+  <g font-family="system-ui,sans-serif" font-weight="900" text-anchor="middle">
+    <g transform="translate(270 299)">
+      <circle r="23" fill="#9f6a13"/>
+      <circle r="18" fill="#ffd34d"/>
+      <text y="8" font-size="22" fill="#071426">₱</text>
+    </g>
+    <g transform="translate(270 386)">
+      <circle r="23" fill="#9f6a13"/>
+      <circle r="18" fill="#ffd34d"/>
+      <text y="8" font-size="22" fill="#071426">₱</text>
+    </g>
+    <g transform="translate(270 473)">
+      <circle r="23" fill="#9f6a13"/>
+      <circle r="18" fill="#ffd34d"/>
+      <text y="8" font-size="22" fill="#071426">₱</text>
+    </g>
+  </g>
+
+  <g transform="translate(132 586)">
+    <ellipse cy="4" rx="41" ry="22" fill="#111923"/>
+    <ellipse cx="-9" cy="1" rx="20" ry="11" fill="#1d2630"/>
+  </g>
+
+  <g transform="translate(407 541)">
+    <circle r="43" fill="#65c9ff" opacity=".18"/>
+    <rect x="-27" y="-35" width="54" height="70" rx="8" fill="#00a7c4"/>
+    <rect x="-14" y="-45" width="28" height="13" rx="4" fill="#fff"/>
+    <path d="M-7-23h14v12h11V3H7v11H-7V3h-11v-14h11z" fill="#fff"/>
+  </g>
+
+  <g transform="translate(270 704)" filter="url(#shadow)">
+    <rect x="-48" y="-66" width="96" height="142" rx="16" fill="#000" opacity=".3"/>
+    <rect x="-42" y="-65" width="84" height="130" rx="14" fill="url(#jeep)"/>
+    <rect x="-36" y="-48" width="72" height="39" rx="7" fill="#65c9ff"/>
+    <rect x="-4" y="-48" width="8" height="39" fill="#fff"/>
+    <rect x="-43" y="19" width="86" height="31" rx="7" fill="#f2b62f"/>
+    <rect x="-29" y="26" width="58" height="18" rx="5" fill="#d8324a"/>
+    <text x="0" y="40" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" font-weight="900" fill="#fff">SAKAY</text>
+    <g fill="#121a25">
+      <rect x="-48" y="-44" width="8" height="34" rx="4"/>
+      <rect x="40" y="-44" width="8" height="34" rx="4"/>
+      <rect x="-48" y="35" width="8" height="34" rx="4"/>
+      <rect x="40" y="35" width="8" height="34" rx="4"/>
+    </g>
+    <g fill="#ff5964">
+      <rect x="-30" y="54" width="19" height="8" rx="3"/>
+      <rect x="11" y="54" width="19" height="8" rx="3"/>
+    </g>
+  </g>
+
+  <rect width="540" height="94" fill="#071426"/>
+  <g font-family="system-ui,sans-serif" font-weight="900">
+    <text x="18" y="24" font-size="13" fill="#8ca5bd">SCORE</text>
+    <text x="18" y="53" font-size="26" fill="#f8fbff">001460</text>
+    <text x="178" y="52" font-size="24" fill="#ffd34d">₱128</text>
+    <text x="278" y="50" font-size="18" fill="#4bd38b">SAKAY 5/8</text>
+    <text x="400" y="52" font-size="25" fill="#ff5964">♥♥♥</text>
+  </g>
+  <rect x="18" y="72" width="424" height="10" rx="5" fill="#233447"/>
+  <rect x="18" y="72" width="318" height="10" rx="5" fill="#4bd38b"/>
+  <text x="270" y="122" text-anchor="middle" font-family="system-ui,sans-serif" font-weight="900" font-size="18" fill="#4bd38b">SAKAY COMBO ×3</text>
+
+  <g transform="translate(0 842)" filter="url(#shadow)" font-family="system-ui,sans-serif" text-anchor="middle" fill="#fff">
+    <circle cx="91" cy="55" r="51" fill="#071426" opacity=".9" stroke="#fff" stroke-opacity=".16"/>
+    <text x="91" y="75" font-size="58">‹</text>
+    <circle cx="270" cy="46" r="61" fill="#bb2d43" stroke="#fff" stroke-opacity=".18" stroke-width="3"/>
+    <text x="270" y="44" font-size="19" font-weight="900">PRENO</text>
+    <text x="270" y="61" font-size="10" font-weight="800" opacity=".65">HOLD</text>
+    <circle cx="449" cy="55" r="51" fill="#071426" opacity=".9" stroke="#fff" stroke-opacity=".16"/>
+    <text x="449" y="75" font-size="58">›</text>
+  </g>
+</svg>

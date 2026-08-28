@@ -1,0 +1,10 @@
+{
+  "name": "jeepney-dash-byaheng-pinoy",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node tests/game-core.test.mjs && node tests/web-smoke.test.mjs && node tests/project-structure.test.mjs",
+    "check": "node --check web-preview/game-core.js && node --check web-preview/game.js && node --check web-preview/sw.js"
+  }
+}
