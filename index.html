@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="fil">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+  <meta name="theme-color" content="#071426">
+  <meta name="description" content="Jeepney Dash: Byaheng Pinoy — a mobile-first Filipino arcade driving game.">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <title>Jeepney Dash: Byaheng Pinoy</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/icon-192.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="game-shell" aria-label="Jeepney Dash game">
+    <canvas id="gameCanvas" width="540" height="960" aria-label="Jeepney driving game area"></canvas>
+
+    <div class="top-actions" aria-label="Game controls">
+      <button id="soundButton" class="icon-button" type="button" aria-label="Turn sound on or off">🔊</button>
+      <button id="pauseButton" class="icon-button" type="button" aria-label="Pause game">Ⅱ</button>
+    </div>
+
+    <div id="driveControls" class="drive-controls" aria-label="Driving controls" hidden>
+      <button id="leftButton" class="drive-button steer" type="button" aria-label="Move left">‹</button>
+      <button id="brakeButton" class="drive-button brake" type="button" aria-label="Hold to brake"><span>PRENO</span><small>HOLD</small></button>
+      <button id="rightButton" class="drive-button steer" type="button" aria-label="Move right">›</button>
+    </div>
+
+    <section id="menuOverlay" class="overlay" aria-labelledby="gameTitle">
+      <div class="panel menu-panel">
+        <img class="game-logo" src="assets/icon.svg" alt="Colorful Jeepney Dash logo">
+        <p class="eyebrow">ISANG LARONG PINOY</p>
+        <h1 id="gameTitle"><span>Jeepney</span> Dash</h1>
+        <p class="subtitle">Byaheng Pinoy</p>
+        <p class="instructions">Iwas trapik, kolekta ng barya, at huminto nang maayos para magsakay ng pasahero.</p>
+        <div class="tips">
+          <span>↔ Swipe para lumipat</span>
+          <span>● Hold PRENO sa green stop</span>
+        </div>
+        <button id="startButton" class="primary-button" type="button">Simulan ang Biyahe</button>
+        <p id="menuBest" class="best-score">Best score: 0</p>
+      </div>
+    </section>
+
+    <section id="pauseOverlay" class="overlay" hidden aria-labelledby="pauseTitle">
+      <div class="panel compact-panel">
+        <p class="eyebrow">SANDALI LANG</p>
+        <h2 id="pauseTitle">Naka-pause</h2>
+        <p>Handa ka na bang bumiyahe ulit?</p>
+        <button id="resumeButton" class="primary-button" type="button">Ipagpatuloy</button>
+      </div>
+    </section>
+
+    <section id="gameOverOverlay" class="overlay" hidden aria-labelledby="gameOverTitle">
+      <div class="panel compact-panel">
+        <p class="eyebrow">TAPOS ANG BIYAHE</p>
+        <h2 id="gameOverTitle">Good ride!</h2>
+        <p id="gameOverReason" class="reason">Nasira ang jeepney!</p>
+        <div class="score-card">
+          <span>Score</span>
+          <strong id="finalScore">0</strong>
+        </div>
+        <div class="run-stats">
+          <span>Distansya <strong id="finalDistance">0m</strong></span>
+          <span>Pamasahe <strong id="finalFare">₱0</strong></span>
+        </div>
+        <p id="finalBest" class="best-score">Best score: 0</p>
+        <button id="restartButton" class="primary-button" type="button">Biyahe Ulit</button>
+      </div>
+    </section>
+
+    <div id="status" class="sr-only" aria-live="polite"></div>
+  </main>
+
+  <script type="module" src="game.js"></script>
+</body>
+</html>
+
